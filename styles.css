@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+
+}
+
+
+
+.options {
+    text-align: center;  
+border: 7px solid red;  
+width: 150px;  
+height: 150px;  
+padding-top: 100px; 
+}
+
+
+
+.reset {
+    margin-top: 80px;
+}
