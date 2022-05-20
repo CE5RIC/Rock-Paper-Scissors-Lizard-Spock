@@ -72,7 +72,6 @@ if (pChoice == cInput) {
             playerScore++;
         }
          
-console.log(playerScore, computerScore);
 
 
         document.getElementById("player").innerHTML = playerScore;
@@ -80,8 +79,11 @@ console.log(playerScore, computerScore);
         document.getElementById("computer").innerHTML = computerScore;
 
 document.getElementById("reset").addEventListener("click", function () {
-   document.getElementById("player").innerHTML = 0;
+    document.getElementById("player").innerHTML = 0;
    document.getElementById("computer").innerHTML = 0;
+
+
+   
    
 } )
       
@@ -90,7 +92,13 @@ document.getElementById("reset").addEventListener("click", function () {
     
 
 
-
+function declareWinner() {
+    if (playerScore == 5) {
+        document.getElementById("result").innerHTML = "You win!";
+    } else if (computerScore == 5) {
+        document.getElementById("result").innerHTML = "You lose!";
+    }
+}
 
     
     
