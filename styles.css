@@ -1,20 +1,63 @@
 body {
-    background-color: bisque;
+    background-color: rgb(136, 158, 231);
 
 }
 
 
 
 .options {
-    text-align: center;  
-border: 7px solid red;  
-width: 150px;  
-height: 150px;  
-padding-top: 100px; 
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 
 
+
+.options:hover {background-color: #3e8e41}
+
+
+.options:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 .reset {
     margin-top: 80px;
+    height: 30px;
+    width: 80px;
+    color: red;
+    background-color: lightblue;
+}
+
+
+p {
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+
+
+.player {
+    height: 30px;
+    width: 30px;
+    color: red;
+    background-color: lightblue;
+}
+
+.computer {
+    height: 30px;
+    width: 30px;
+    color: red;
+    background-color: lightblue;
 }
