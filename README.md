@@ -18,8 +18,8 @@ Rock crushes Scissors
 Must-have features
 
 [x] Have 5 buttons that the player can press to change their pick
-[] Have another button to let the computer pick one and show the winner
-[] Let the player know they won (no alert box)
+[X] Have another button to let the computer pick one and show the winner
+[X] Let the player know they won (no alert box)
 [x] Have a reset button
 
 Nice-to-have features
