@@ -71,6 +71,7 @@ if (pChoice == cInput) {
        }
         
 
+       checkWinner();
 
        document.getElementById("player").innerHTML = playerScore;
 
@@ -98,6 +99,17 @@ function resetCounter() {
    function updateDisplay(val) {
        document.getElementById("player").innerHTML = val;
        document.getElementById("computer").innerHTML = val;
+   }
+
+
+
+
+   function checkWinner() {
+   if (playerScore == 5) {
+       document.getElementById("result").innerHTML = "You win";
+   } else if (computerScore == 5) {
+       document.getElementById("result").innerHTML = "You lose";
+   }
    }
     
 
